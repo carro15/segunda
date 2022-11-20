@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    .herder ul {
+     background-color: rgb(86, 30, 4);
+    }
+    
+    body{
+    background-color: rgb(218, 245, 245);
+    }
+    img{
+        display: block;
+        width: 5%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    header{
+    background-color: rgb(207, 231, 139);
+    color: rgb(26, 26, 25);
+    }
+    header,
+    footer,
+    .left,
+    .center,
+    .right{
+    font-size: 30px;
+    
+    padding: 5%;
+    text-align: center;
+    }
+    .left,
+    .center,
+    .right{
+    color: white;
+    width: 33.33%;
+    border: rgb(51, 42, 42) solid 3px;
+    background-color: rgb(37, 49, 211);
+   
+
+  
+    
+    }
+
+    .left{
+    
+        width: 50%;
+    
+       
+    }
+
+  
+
+    .center{
+        background-color: rgb(131, 207, 55);
+        width: 50%;
+        
+    }
+
+    section img{
+        width: 30%;
+        display: inline;
+        margin-left: auto;
+        list-style-image: none;
+        background-position:  right;
+        float: right;
+    }
+    
+    footer{
+    color: rgb(241, 244, 248);
+  background-color: chocolate;
+    width: 100%;
+    }
+    footer img{
+        width: 5%;
+        display: inline;
+        margin-left: auto;
+    }
+    .container {
+    text-align: center; /* necesario para la class .center */
+    
+    }
+    .container:after {
+    content: "";
+    display: table;
+    clear: both;
+    }
+    .left {
+        
+    float: left;
+    display: flex;
+    list-style: none;
+ 
+ 
+    }
+    .center {
+    margin: 0 auto;
+    display: inline-block;
+    width: 50%;
+    }
+    
+    nav ul{
+        display: flex;
+    list-style: none;
+    justify-items: center;
+    justify-content: center;
+
+
+    }
+    nav h3{
+        display: flex;
+        list-style: none;
+
+    }
+    section h4{
+        color: rgb(6, 6, 6);
+        align-items: center;
+    }
+
+    section h3{
+       
+      color: black;
+      display: flex;
+    }
+     
+    div ul{
+        width: 20%;
+    }
+
+  
+   
